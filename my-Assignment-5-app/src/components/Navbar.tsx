@@ -5,14 +5,12 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 border-b border-gray-100 bg-white w-full">
       <div className="mx-auto flex h-14.5 max-w-7xl items-center justify-between px-6 pb-6 pt-4">
 
-        {/* Mobile Hamburger */}
         <button className="flex flex-col gap-1.25 md:hidden">
           <span className="h-0.5 w-7 bg-gray-500"></span>
           <span className="h-0.5 w-7 bg-gray-500"></span>
           <span className="h-0.5 w-7 bg-gray-500"></span>
         </button>
 
-        {/* Logo */}
         <div className="flex items-center gap-2">
           <img
             src="./B14-A05-DevStack/assets/logo-text.png"
@@ -20,7 +18,6 @@ const Navbar = () => {
           />
         </div>
 
-        {/* Navigation Links */}
         <div className="hidden items-center gap-7 md:flex">
           <a
             href="#home"
@@ -58,7 +55,6 @@ const Navbar = () => {
           </a>
         </div>
 
-        {/* Buttons */}
         <div className="flex items-center gap-4">
           <button className="text-sm font-medium text-gray-700">
             Sign In
