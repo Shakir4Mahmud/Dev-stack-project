@@ -13,7 +13,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-2">
           <img
-            src="./B14-A05-DevStack/assets/logo-text.png"
+            src="./src/assets/logo-text.png"
             alt="Dev Stack Logo"
           />
         </div>
