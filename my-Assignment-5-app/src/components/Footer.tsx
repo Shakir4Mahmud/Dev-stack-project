@@ -5,7 +5,6 @@ const Footer = () => {
     <footer className="border-t border-gray-200 bg-gray-50">
       <div className="mx-auto max-w-7xl px-5 py-12">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
-          
         
           <div>
             <div className="mb-5 flex items-center gap-2">
@@ -25,7 +24,6 @@ const Footer = () => {
               building modern software.
             </p>
 
-            {/* Social Links */}
             <div className="mt-5 flex gap-5 text-sm text-gray-600">
               <a
                 href="https://github.com"
@@ -56,7 +54,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Product */}
           <div>
             <h3 className="mb-5 text-xs font-bold uppercase tracking-wide text-gray-900">
               Product
@@ -75,7 +72,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Company */}
           <div>
             <h3 className="mb-5 text-xs font-bold uppercase tracking-wide text-gray-900">
               Company
@@ -94,7 +90,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Legal */}
           <div>
             <h3 className="mb-5 text-xs font-bold uppercase tracking-wide text-gray-900">
               Legal
@@ -111,7 +106,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Bar */}
         <div className="mt-12 flex flex-col gap-4 border-t border-gray-200 pt-6 text-sm text-gray-500 sm:flex-row sm:items-center sm:justify-between">
           <p>© 2026 Dev Stack. All rights reserved.</p>
 
