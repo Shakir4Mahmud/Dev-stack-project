@@ -3,7 +3,6 @@ const Banner = () => {
     <section className="px-5 py-16 md:py-20">
       <div className="mx-auto flex max-w-300 items-center justify-between gap-10">
 
-        {/* Banner Content */}
         <div className="max-w-140">
 
           <h1 className="text-4xl font-bold leading-tight text-gray-900 md:text-5xl">
@@ -20,7 +19,6 @@ const Banner = () => {
             next project.
           </p>
 
-          {/* Buttons */}
           <div className="mt-9 flex items-center gap-3">
             <button className="rounded-md bg-linear-to-r from-orange-500 via-pink-600 to-violet-600 px-4 py-2.5 text-sm font-medium text-white">
               Explore Technologies
@@ -32,8 +30,7 @@ const Banner = () => {
           </div>
 
         </div>
-
-       
+        
         <div className="hidden md:block">
           <img
             src="./B14-A05-DevStack/assets/banner-stack.png"
