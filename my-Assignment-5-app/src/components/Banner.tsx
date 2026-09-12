@@ -1,3 +1,5 @@
+import banner from "../assets/banner-image.png";
+
 const Banner = () => {
   return (
     <section className="px-5 py-16 md:py-20">
@@ -33,7 +35,7 @@ const Banner = () => {
         
         <div className="hidden md:block">
           <img
-            src="./src/assets/banner-image.png"
+            src={banner}
             alt="Development Stack"
             className="w-150 h-150"
           />

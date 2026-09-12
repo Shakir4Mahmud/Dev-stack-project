@@ -1,4 +1,4 @@
-
+import Logo from "../assets/nav-logo.png";
 
 const Navbar = () => {
   return (
@@ -13,7 +13,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-2">
           <img
-            src="./src/assets/nav-logo.png"
+            src={Logo}
             alt="Dev Stack Logo"
           />
         </div>

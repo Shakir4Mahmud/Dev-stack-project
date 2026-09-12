@@ -1,4 +1,4 @@
-
+import logo from "../assets/background.png";
 
 const Footer = () => {
   return (
@@ -9,11 +9,10 @@ const Footer = () => {
           <div>
             <div className="mb-5 flex items-center gap-2">
               <img
-                src="./src/assets/background.png"
+                src={logo}
                 alt="Dev Stack logo"
                 className="h-8 w-8"
               />
-
               <h2 className="text-lg font-bold text-gray-900">
                 Dev <span className="text-pink-600">Stack</span>
               </h2>
