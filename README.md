@@ -1,8 +1,6 @@
-### Project Name
+### DevStack
 
-**DevStack**
-
-### Little Description
+### Description
 
 DevStack is a modern developer resource platform that helps developers discover and 
 explore useful tools, technologies, and resources in one place. It provides a clean,
