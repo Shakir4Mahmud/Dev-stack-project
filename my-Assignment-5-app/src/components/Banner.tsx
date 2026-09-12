@@ -33,7 +33,7 @@ const Banner = () => {
         
         <div className="hidden md:block">
           <img
-            src="./src/assets/banner-stack.png"
+            src="./src/assets/banner-image.png"
             alt="Development Stack"
             className="w-150 h-150"
           />
